@@ -1,0 +1,76 @@
+Statistics- To analyze ,summarize and understand characteristics of data. It also helps in decision making.
+Types of data-
+1. Descriptive- analyze data using central tendency, variance and distribution shape.
+2. Inferential- Using past data to predict future, regression analysis.
+
+Terminology:
+- Population- Raw data or whole data set
+- Sample- Subset of the population 
+- variable- Characteristics of the population eg: age, gender etc
+- data - it is plural of datum( Nothing but grammatrical way of saying iyt)
+1. Singular- datum 
+2. Plural - plural of datum 
+- Experiment - Process of conducting the collection of data ( Randomized control trial)
+- Parameters - Mean, median, mode
+- Statistics- Numerical value
+
+Types of Data-
+1. Qualitative- describes data points( categorical, desriptive)
+2. Quantitative- Numerical
+
+Qualitative-
+a. Nominal -  cannot be ordered eg: four seasons, types of ethnicity, gender etc
+b. Ordinal - Can be ordered , interval values are not known more subjectiveeg: depression scale, ratings , olympic ranks etc
+c. Discrete - it is an integer, interval values are known and its finite eg number of kids, number of limbs, members of constitution
+d. Continuos- Its a float, intervals within a range contains decimals and fractions eg: height, weight, area , distance
+ 
+Quantitative:
+a. Interval - It does not contain true zero eg : shoe size, zero temp is a subjective way of saying cold but its not present on the scale. 
+b. Ratio- Have true zero 
+
+Measures of central tendency- 
+1. Median - middle number of the ordered data set. eg odd- 1,2,3,4,5 median- 3, even- 1,2,3,4,5,6 Median 3+4/2= 3.5
+2. Mode - The number that repeats the most in the data set eg: 1,2,3,4,2,5,2,5,2 mode= 2  ( gets affected by outlier)
+3. Mean- its the average of all the numbers in teh data set eg: 1,2,3,5,6 mean- 1+2+3+5+6/5 ( Gets affected by outlier)
+
+Measures of Dispersion
+1. Range- how far or scattered the data points are from central tendency
+2. Variance- helps to identify outliers formula: taking the mean, then subscrating it from each data point, squaring the results and get the average eg: (datapoint- mean)2 +( datapoint-mean)2/total number of data points
+3. STandard deviation- calculated by squareroot of variance. 
+
+concept of distribution:
+1. Symmetric - Bell Curve where mean = median = mode
+2. Asymmetric- skewness
+   a. Right Skew- Mean and median falls on the right side of the mode eg: exam scores, household incomes
+   b. Left skew - mean and median lies on the left side of the mode eg: salary and level of heirarchy
+
+Probability Density function - represents the likelihood of a continuous random variable falling within a specific range, rather than an exact value.
+Mathematical function - its mathematical equations
+
+Probability Distribution:
+1. Normal Distribution - its a bell curve or gaussian distribution 
+      follow a n empirical formula
+       68% - Data fall in 1st deviation
+       95% - data falls in 2nd deviation 
+      99.7 % - data falls in 3rd deviation 
+    it means only 0.3%is outlier
+
+2. Bernoli`s Distribution - its a discrete probability disctribution of one experiment with 2 outcomes eg: covid test - Positive or negative , diabeter - yes or no
+3. Binominal distribution - its a combination of independent bernoli`s distribution- eg: 10  randomized covid test, a study of diabetes in people
+4. Uniform Distribution -  probability where all outcomes have equal chance- eg- rolling a dice, lottery
+5. Poisson distribution - Probability of Number of events can happen in certain time range eg: number of call received in 1 hr, number of stocks sold in a day
+6. Standard deviation - where mean = 0 and SD= 1 , this is where multiple variables with different units are calculated to make it a 1 unit, refer to the formula
+
+
+Exploratory Data Analysis
+covariance- variance have linear relationship
+1. Positive- if one variance increases the other as well
+2. Negative- if one variance increase the other decrease.
+
+Colinearility- 2 features are similar, then engineer have to make a decision of merging it or keeping one of the column eg:  rooms in the house and number bedrooms shows co linear relationship,
+                by removing 1 column it prevent overfit the machine. different independent variable predicting dependent variable eg : age and experience relationship with salary.
+
+
+
+
+
